@@ -8,3 +8,29 @@
     /* font-family:sans-serif; */
     color: rgb(13, 13, 134);
 }
+.jan{
+    background-color: #01BD93;
+    font-size: 11px !important;
+}
+.month-heading{
+    color: white;
+    /* font-size: 11px !important; */
+}
+.days{
+    /* background-color: #01BD93; */
+}
+.month{
+    border-radius: 20px 20px 0px 0px;
+
+}
+hr.line{
+    background-color: #01BD93;
+
+}
+table {
+    border: 1px solid;
+    width: 100%;
+  }
+  .sun{
+    color: red;
+  }
