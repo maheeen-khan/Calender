@@ -1,3 +1,6 @@
+*{
+    font-weight: bold;
+}
 #head{
     font-size: 48px;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
@@ -26,6 +29,18 @@ table {
 }
 .main{
     border-radius: 20px 20px 20px 20px !important;
-    border: 2px solid  #01BD93;
+    border: 3px solid  #01BD93;
     padding: 0px 0px 20px 0px;
+}
+.card-title a{
+    color: white !important;
+}
+.days{
+    font-size: 11px;
+}
+#sunday{
+    color: red;
+}
+.days td{
+    color:#01BD93;
 }

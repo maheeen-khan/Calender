@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     
@@ -16,10 +17,32 @@
     <div class="card" style="width: 18rem;">
         <div class="card-body">
             <div class="main">
-          <h5 class="card-title text-center">JANUARY</h5>
+          <h5 class="card-title text-center d-flex justify-content-between">
+            <a href="#" class="card-link">
+                <span class="material-symbols-outlined">
+                arrow_back
+                </span></a> 
+              JANUARY 
+              <a href="#" class="card-link">
+                <span class="material-symbols-outlined">
+                    arrow_forward
+                    </span>
+              </a> 
+            </h5>
           <!-- <h6 class="card-subtitle mb-2 text-body-secondary">SUN <span>MON</span></h6> -->
        
-<table>
+<table cellpadding="6" class="tab">
+
+    <tr class="days">
+        <td id="sunday">SUN</td>
+        <td>MON</td>
+        <td>TUE</td>
+        <td>WED</td>
+        <td>THU</td>
+        <td>FRI</td>
+        <td>SAT</td>
+    </tr>
+
     <tr>
         <td></td>
         <td>&nbsp;1</td>
@@ -66,9 +89,7 @@
         <td></td>
     </tr>
 </table>
-
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a> </div>
+        </div> <!-- main -->
         </div>
       </div><!-- card -->
 
