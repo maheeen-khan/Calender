@@ -13,25 +13,19 @@
     font-size: 11px !important;
     width: 100%;
 }
-.month-heading{
-    color: white;
-    /* font-size: 11px !important; */
-}
-.days{
-    /* background-color: #01BD93; */
-}
-.month{
-    border-radius: 20px 20px 0px 0px;
-    width: 100%;
-}
-hr.line{
-    background-color: #01BD93;
 
-}
 table {
     border: 1px solid;
     width: 100%;
   }
-  .sun{
-    color: red;
-  }
+.card-title{
+    background-color: #01BD93;
+    padding: 15px;
+    border-radius: 20px 20px 0px 0px;
+    color: white !important;
+}
+.main{
+    border-radius: 20px 20px 20px 20px !important;
+    border: 2px solid  #01BD93;
+    padding: 0px 0px 20px 0px;
+}
