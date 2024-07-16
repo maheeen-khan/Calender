@@ -11,6 +11,7 @@
 .jan{
     background-color: #01BD93;
     font-size: 11px !important;
+    width: 100%;
 }
 .month-heading{
     color: white;
@@ -21,7 +22,7 @@
 }
 .month{
     border-radius: 20px 20px 0px 0px;
-
+    width: 100%;
 }
 hr.line{
     background-color: #01BD93;
