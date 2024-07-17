@@ -45,7 +45,7 @@ table {
 }
 .btn{
     z-index: 10;
-
+    color: white !important;
 }
 .days{
     font-size: 11px;
@@ -57,7 +57,7 @@ table {
     color:#01BD93;
 }
 table{
-    /* display: none; */
+    display: none;
     text-align: center;
 }
 .days{

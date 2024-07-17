@@ -15,3 +15,4 @@ var myDate = new Date().getDate();
 
 console.log(myDate );//+ " "+ (myDate.getMonth()+1) + " "+ myDate.getFullYear());
 document.getElementById(myDate).style.backgroundColor = '#01BD93';
+document.getElementById(myDate).style.color = 'white';
