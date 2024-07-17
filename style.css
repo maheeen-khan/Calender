@@ -1,6 +1,7 @@
 .card{
     font-weight: bold;
 }
+
 #head{
     font-size: 48px;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
@@ -77,6 +78,13 @@ table{
 }
 #end{
     font-size: 12px;
+    color: rgb(13, 13, 134);
+
+}
+#sec-bottom{
+    color:#04a280;
+    
+    
 }
 .main::before{
     content: '';

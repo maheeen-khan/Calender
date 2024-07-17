@@ -30,4 +30,13 @@ var today = day + ", " + myDate + " " + month + " " + new Date().getFullYear();
 // document.write(today);
 document.getElementById('end').innerHTML = "<p>" + "TODAY  | " +today + "</p>";
 
+var hours_array = [12,1,2,3,4,5,6,7,8,9,10,11];
+
+function clock(){
+    document.getElementById('sec-bottom').innerHTML ="<h2>" + hours_array[new Date().getHours()] + " : "+ new Date().getMinutes() + " : " + new Date().getSeconds() + "<h2>";
+}
+setInterval(clock,1000);
+clock();
+// document.getElementById('sec-bottom').innerHTML = "<h2>" + clock()"<h2>";
+
 
