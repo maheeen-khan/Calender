@@ -64,6 +64,12 @@ table{
     z-index: 10;
 
 }
+.card{
+    border: none !important;
+}
+.card:hover{
+    cursor: pointer;
+}
 .main::before{
     content: '';
     position: absolute;
