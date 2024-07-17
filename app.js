@@ -14,4 +14,4 @@ function func(event,type){
 var myDate = new Date().getDate();
 
 console.log(myDate );//+ " "+ (myDate.getMonth()+1) + " "+ myDate.getFullYear());
-document.getElementById(myDate).style.backgroundColor = 'red';
+document.getElementById(myDate).style.backgroundColor = '#01BD93';
