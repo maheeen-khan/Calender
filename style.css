@@ -1,4 +1,4 @@
-*{
+.card{
     font-weight: bold;
 }
 #head{
@@ -46,6 +46,7 @@ table {
 .btn{
     z-index: 10;
     color: white !important;
+    font-size: 20px !important;
 }
 .days{
     font-size: 11px;
@@ -69,6 +70,13 @@ table{
 }
 .card:hover{
     cursor: pointer;
+}
+.or{
+    color: rgb(164, 163, 163);
+    
+}
+#end{
+    font-size: 12px;
 }
 .main::before{
     content: '';
