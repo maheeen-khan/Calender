@@ -1,12 +1,20 @@
 
-function func(event,type){
-    if(event.type === 'mouseenter'){
+function func(){
+    // wrong approach...
+    // if(event.type === 'click'){
+    //     document.getElementById('tab').style.display = 'block';
+
+    // }
+    // else{
+    // document.getElementById('tab').style.display = 'none';
+
+    // }
+    // var a =  document.getElementById('tab');
+    if(document.getElementById('tab').style.display === 'none'){
         document.getElementById('tab').style.display = 'block';
-
     }
-    else{
-    document.getElementById('tab').style.display = 'none';
-
+    else {
+        document.getElementById('tab').style.display = 'none';
     }
 
 }
@@ -30,7 +38,7 @@ var today = day + ", " + myDate + " " + month + " " + new Date().getFullYear();
 // document.write(today);
 document.getElementById('end').innerHTML = "<p>" + "TODAY  | " +today + "</p>";
 
-var hours_array = [12,1,2,3,4,5,6,7,8,9,10,11];
+var hours_array = [12,1,2,3,4,5,6,7,8,9,10,11,12,1,2,3,4,5,6,7,8,9,10,11,12];
 
 function clock(){
     document.getElementById('sec-bottom').innerHTML ="<h2>" + hours_array[new Date().getHours()] + " : "+ new Date().getMinutes() + " : " + new Date().getSeconds() + "<h2>";

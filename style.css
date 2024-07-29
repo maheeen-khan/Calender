@@ -35,7 +35,6 @@ table {
     overflow: hidden;
     position: relative;
     background-color: white;
-
     z-index: 100;
 
 }
@@ -82,9 +81,7 @@ table{
 
 }
 #sec-bottom{
-    color:#04a280;
-    
-    
+    color:#04a280;  
 }
 .main::before{
     content: '';
